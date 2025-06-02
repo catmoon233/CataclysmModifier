@@ -1,0 +1,341 @@
+{
+  "type": "ATTACKABLE",
+  "axe1": {
+    "weight": 10,
+    "isRandom": false,
+    "RandomNum": 4,
+    "OnlyTags": [
+      "minecraft:pickaxes",
+      "minecraft:axes",
+      "minecraft:shovels",
+      "minecraft:hoes"
+    ],
+    "attrGethers": {
+      "forge:block_reach": {
+        "weight": 0,
+        "value": 1,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "multiply_base"
+      },
+      "exmodifier:durability": {
+        "weight": 0,
+        "value": 0.25,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "multiply_base"
+      }
+    }
+  },
+  "axe2": {
+    "weight": 15,
+    "isRandom": false,
+    "RandomNum": 4,
+    "OnlyTags": [
+      "minecraft:pickaxes",
+      "minecraft:axes",
+      "minecraft:shovels",
+      "minecraft:hoes"
+    ],
+    "attrGethers": {
+      "forge:block_reach": {
+        "weight": 0,
+        "value": 0.05,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "multiply_base"
+      },
+      "exmodifier:dig_speed": {
+        "weight": 0,
+        "value": 0.05,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "multiply_base"
+      },
+      "exmodifier:durability": {
+        "weight": 0,
+        "value": 0.05,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "multiply_base"
+      }
+    }
+  },
+  "axe3": {
+    "weight": 12,
+    "isRandom": false,
+    "RandomNum": 4,
+    "OnlyTags": [
+      "minecraft:pickaxes",
+      "minecraft:axes",
+      "minecraft:shovels",
+      "minecraft:hoes"
+    ],
+    "attrGethers": {
+      "exmodifier:dig_speed": {
+        "weight": 0,
+        "value": 0.35,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "multiply_base"
+      },
+      "exmodifier:durability": {
+        "weight": 0,
+        "value": 0.2,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "multiply_base"
+      }
+    }
+  },
+  "axe4": {
+    "weight": 8,
+    "isRandom": false,
+    "RandomNum": 4,
+    "OnlyTags": [
+      "minecraft:pickaxes",
+      "minecraft:axes",
+      "minecraft:shovels",
+      "minecraft:hoes"
+    ],
+    "attrGethers": {
+      "forge:block_reach": {
+        "weight": 0,
+        "value": 0.5,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "multiply_base"
+      },
+      "exmodifier:dig_speed": {
+        "weight": 0,
+        "value": 0.55,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "multiply_base"
+      },
+      "exmodifier:durability": {
+        "weight": 0,
+        "value": 0.5,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "multiply_base"
+      }
+    }
+  },
+  "axe5": {
+    "weight": 10,
+    "isRandom": false,
+    "RandomNum": 4,
+    "OnlyTags": [
+      "minecraft:pickaxes",
+      "minecraft:axes",
+      "minecraft:shovels",
+      "minecraft:hoes"
+    ],
+    "attrGethers": {
+      "exmodifier:dig_speed": {
+        "weight": 0,
+        "value": 0.55,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "multiply_base"
+      },
+      "forge:block_reach": {
+        "weight": 0,
+        "value": 0.2,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "multiply_base"
+      }
+    }
+  },
+  "axe6": {
+    "weight": 10,
+    "isRandom": false,
+    "RandomNum": 4,
+    "OnlyTags": [
+      "minecraft:pickaxes",
+      "minecraft:axes",
+      "minecraft:shovels",
+      "minecraft:hoes"
+    ],
+    "attrGethers": {
+      "exmodifier:dig_speed": {
+        "weight": 0,
+        "value": -0.35,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "multiply_base"
+      },
+      "forge:block_reach": {
+        "weight": 0,
+        "value": -0.25,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "multiply_base"
+      },
+      "exmodifier:durability": {
+        "weight": 0,
+        "value": -0.45,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "multiply_base"
+      }
+    }
+  },
+  "axe7": {
+    "weight": 10,
+    "isRandom": false,
+    "RandomNum": 4,
+    "OnlyTags": [
+      "minecraft:pickaxes",
+      "minecraft:axes",
+      "minecraft:shovels",
+      "minecraft:hoes"
+    ],
+    "attrGethers": {
+      "forge:block_reach": {
+        "weight": 0,
+        "value": -0.75,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "multiply_base"
+      },
+      "exmodifier:dig_speed": {
+        "weight": 0,
+        "value": -0.55,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "multiply_base"
+      },
+      "exmodifier:durability": {
+        "weight": 0,
+        "value": -0.75,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "multiply_base"
+      }
+    }
+  },
+  "axe8": {
+    "weight": 10,
+    "isRandom": false,
+    "RandomNum": 4,
+    "OnlyTags": [
+      "minecraft:pickaxes",
+      "minecraft:axes",
+      "minecraft:shovels",
+      "minecraft:hoes"
+    ],
+    "attrGethers": {
+      "forge:block_reach": {
+        "weight": 0,
+        "value": -0.05,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "multiply_base"
+      },
+      "exmodifier:dig_speed": {
+        "weight": 0,
+        "value": -0.05,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "multiply_base"
+      },
+      "exmodifier:durability": {
+        "weight": 0,
+        "value": -0.05,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "multiply_base"
+      }
+    }
+  },
+  "axe9": {
+    "weight": 10,
+    "isRandom": false,
+    "RandomNum": 4,
+    "OnlyTags": [
+      "minecraft:pickaxes",
+      "minecraft:axes",
+      "minecraft:shovels",
+      "minecraft:hoes"
+    ],
+    "attrGethers": {
+      "forge:block_reach": {
+        "weight": 0,
+        "value": -0.5,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "multiply_base"
+      }
+    }
+  },
+  "axe10": {
+    "weight": 5,
+    "isRandom": false,
+    "RandomNum": 4,
+    "OnlyTags": [
+      "minecraft:pickaxes",
+      "minecraft:axes",
+      "minecraft:shovels",
+      "minecraft:hoes"
+    ],
+    "attrGethers": {
+      "forge:block_reach": {
+        "weight": 0,
+        "value": 0.65,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "multiply_base"
+      },
+      "exmodifier:dig_speed": {
+        "weight": 0,
+        "value": 1.55,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "multiply_base"
+      },
+      "minecraft:generic.movement_speed": {
+        "weight": 0,
+        "value": 0.15,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "multiply_base"
+      },
+      "exmodifier:durability": {
+        "weight": 0,
+        "value": 1.75,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "multiply_base"
+      }
+    }
+  }
+}

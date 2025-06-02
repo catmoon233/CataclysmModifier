@@ -1,0 +1,14 @@
+{
+  "example": {
+    "entries": [
+      {
+        "id": "ATat2",
+        "level": 1
+      }
+    ],
+    "itemSelector": {
+      "itemId": ["minecraft:wooden_sword"],
+      "type": "ID"
+    }
+  }
+}

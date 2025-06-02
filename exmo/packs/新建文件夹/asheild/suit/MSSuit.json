@@ -1,0 +1,26 @@
+{
+    "type": "SHIELD",
+    "MEShield": {
+      "LocalDescription":"§7攻击附带§2中毒§7，自身获得§2幸运",
+	"visible":true,
+      "1": {
+        "trigger": "ATTACK",
+        "commands": [
+          "effect give $(hurtentity) minecraft:poison 30 $(level)"
+        ],
+        "effect": {
+          "minecraft:luck": {
+            "level": 1,
+            "time": 80
+          }
+        },
+        "attrGethers": {
+          "minecraft:generic.knockback_resistance": {
+            "autoUUID": true,
+            "value": 0.1,
+            "operation":"add"
+          }
+        }
+      }
+    } 
+}

@@ -1,0 +1,424 @@
+{
+  "type": "slashblade",
+  "weapon1": {
+    "type": "slashblade",
+    "weight": 10,
+    "isRandom": false,
+    "RandomNum": 4,
+    "attrGethers": {
+      "minecraft:generic.attack_damage": {
+        "weight": 0,
+        "value": 0.1,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "multiply_base"
+      },
+      "forge:entity_reach": {
+        "weight": 0,
+        "value": 0.05,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "multiply_base"
+      },
+      "exmodifier:hit_rate": {
+        "weight": 0,
+        "value": 0.05,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "multiply_base"
+      }
+    }
+  },
+  "weapon2": {
+    "weight": 10,
+    "isRandom": false,
+    "RandomNum": 4,
+    "attrGethers": {
+      "confluence:aggro": {
+        "weight": 0,
+        "value": 0.15,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "multiply_base"
+      },
+      "minecraft:generic.luck": {
+        "weight": 0,
+        "value": 1,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "add"
+      }
+    }
+  },
+
+  "weapon3": {
+    "weight": 10,
+    "isRandom": false,
+    "RandomNum": 4,
+    "attrGethers": {
+      "minecraft:generic.attack_damage": {
+        "weight": 0,
+        "value": 0.1,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "multiply_base"
+      },
+      "confluence:armor_pass": {
+        "weight": 0,
+        "value": 0.1,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "multiply_base"
+      }
+    }
+  },
+
+  "weapon4": {
+    "weight": 10,
+    "isRandom": false,
+    "RandomNum": 4,
+    "attrGethers": {
+      "minecraft:generic.attack_damage": {
+        "weight": 0,
+        "value": 0.1,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "multiply_base"
+      },
+      "confluence:mining_speed": {
+        "weight": 0,
+        "value": 0.1,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "multiply_base"
+      }
+    }
+  },
+
+  "weapon5": {
+    "weight": 10,
+    "isRandom": false,
+    "RandomNum": 4,
+    "attrGethers": {
+      "minecraft:generic.max_health": {
+        "weight": 0,
+        "value": -6,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "add"
+      },
+      "minecraft:generic.attack_damage": {
+        "weight": 0,
+        "value": 0.15,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "multiply_base"
+      },
+      "confluence:armor_pass": {
+        "weight": 0,
+        "value": 0.05,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "multiply_base"
+      }
+    }
+  },
+  "weapon6": {
+    "weight": 10,
+    "isRandom": false,
+    "RandomNum": 4,
+    "attrGethers": {
+      "minecraft:generic.attack_damage": {
+        "weight": 0,
+        "value": 0.2,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "multiply_base"
+      }
+    }
+  },
+  "weapon7": {
+    "weight": 10,
+    "isRandom": false,
+    "RandomNum": 4,
+    "attrGethers": {
+      "minecraft:generic.attack_damage": {
+        "weight": 0,
+        "value": -0.45,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "multiply_base"
+      },
+      "forge:entity_reach": {
+        "weight": 0,
+        "value": -0.05,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "multiply_base"
+      },
+      "exmodifier:durability": {
+        "weight": 0,
+        "value": -0.25,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "multiply_base"
+      }
+    }
+  },
+  "weapon8": {
+    "weight": 10,
+    "isRandom": false,
+    "RandomNum": 4,
+    "attrGethers": {
+      "minecraft:generic.attack_damage": {
+        "weight": 0,
+        "value": 0.05,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "multiply_base"
+      },
+      "minecraft:generic.luck": {
+        "weight": 0,
+        "value": 1,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "add"
+      }
+    }
+  },
+  "weapon9": {
+    "weight": 10,
+    "isRandom": false,
+    "RandomNum": 4,
+    "attrGethers": {
+      "minecraft:generic.attack_damage": {
+        "weight": 0,
+        "value": -0.1,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "multiply_base"
+      },
+      "exmodifier:durability": {
+        "weight": 0,
+        "value": -0.25,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "multiply_base"
+      }
+    }
+  },
+  "weapon10": {
+    "weight": 4,
+    "isRandom": false,
+    "RandomNum": 4,
+    "attrGethers": {
+      "minecraft:generic.attack_damage": {
+        "weight": 0,
+        "value": 0.25,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "multiply_base"
+      },
+      "forge:entity_reach": {
+        "weight": 0,
+        "value": 0.1,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "multiply_base"
+      },
+      "minecraft:generic.luck": {
+        "weight": 0,
+        "value": 1,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "add"
+      },
+      "confluence:armor_pass": {
+        "weight": 0,
+        "value": 0.2,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "multiply_base"
+      },
+      "exmodifier:durability": {
+        "weight": 0,
+        "value": 0.5,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "multiply_base"
+      }
+    }
+  },
+  "weapon11": {
+    "weight": 10,
+    "isRandom": false,
+    "RandomNum": 4,
+    "attrGethers": {
+      "minecraft:generic.attack_damage": {
+        "weight": 0,
+        "value": 0.15,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "multiply_base"
+      },
+      "forge:entity_reach": {
+        "weight": 0,
+        "value": -0.3,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "multiply_base"
+      }
+    }
+  },
+  "weapon12": {
+    "weight": 10,
+    "isRandom": false,
+    "RandomNum": 4,
+    "attrGethers": {
+      "minecraft:generic.attack_damage": {
+        "weight": 0,
+        "value": 0.08,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "multiply_base"
+      },
+      "forge:entity_reach": {
+        "weight": 0,
+        "value": 0.2,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "multiply_base"
+      },
+      "exmodifier:durability": {
+        "weight": 0,
+        "value": 0.35,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "multiply_base"
+      }
+    }
+  },
+  "weapon13": {
+    "weight": 10,
+    "isRandom": false,
+    "RandomNum": 4,
+    "attrGethers": {
+      "minecraft:generic.attack_damage": {
+        "weight": 0,
+        "value": 0.05,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "multiply_base"
+      },
+      "exmodifier:durability": {
+        "weight": 0,
+        "value": 1.25,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "multiply_base"
+      }
+    }
+  },
+  "weapon14": {
+    "weight": 10,
+    "isRandom": false,
+    "RandomNum": 4,
+    "attrGethers": {
+      "minecraft:generic.attack_damage": {
+        "weight": 0,
+        "value": -0.35,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "multiply_base"
+      },
+      "forge:entity_reach": {
+        "weight": 0,
+        "value": -0.05,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "multiply_base"
+      },
+      "minecraft:generic.luck": {
+        "weight": 0,
+        "value": -1,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "add"
+      },
+      "exmodifier:durability": {
+        "weight": 0,
+        "value": -0.35,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "multiply_base"
+      }
+    }
+  },
+  "weapon15": {
+    "weight": 10,
+    "isRandom": false,
+    "RandomNum": 4,
+    "attrGethers": {
+      "minecraft:generic.attack_damage": {
+        "weight": 0,
+        "value": -0.15,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "multiply_base"
+      },
+      "minecraft:generic.luck": {
+        "weight": 0,
+        "value": 1,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "add"
+      },
+      "exmodifier:durability": {
+        "weight": 0,
+        "value": -0.55,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "multiply_base"
+      }
+    }
+  }
+}

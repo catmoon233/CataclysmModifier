@@ -1,0 +1,87 @@
+{
+  "type": "ATTACKABLE",
+  "angry": {
+    "weight": 4,
+    "maxLevel": 6,
+    "icon": "exmodifier:textures/item/angry.png",
+    "slots": ["exmodifier:front"],
+    "attrGethers": {
+      "exmodifier:percent_heal": {
+        "value": 0.01,
+
+        "slot": "auto",
+        "operation": "multiply_base"
+      }
+    }
+  } ,
+  "tool_ap": {
+    "types": [
+      "PICKAXE","AXE"
+    ],
+    "weight": 400,
+    "maxLevel": 2,
+    "icon": "exmodifier:textures/item/angry.png",
+    "slots": ["exmodifier:front"],
+    "attrGethers": {
+      "exmodifier:dig_speed": {
+        "value": 0.5,
+
+        "slot": "auto",
+        "operation": "multiply_base"
+      }
+    }
+  } ,
+  "angrys": {
+    "weight": 1,
+    "maxLevel": 6,
+    "slots": ["exmodifier:front"],
+    "OnlyWashItems": ["minecraft:diamond"],
+    "attrGethers": {
+      "minecraft:generic.attack_damage": {
+        "value": 0.65,
+        "slot": "auto",
+        "operation": "multiply_base"
+      }
+    }
+  } ,
+  "angry2": {
+    "weight": 4,
+    "maxLevel": 6,
+    "slots": ["exmodifier:front"],
+    "attrGethers": {
+      "exmodifier:percent_heal": {
+        "value": 0.01,
+
+        "ValueExpression": "level*0.01",
+        "slot": "auto",
+        "operation": "multiply_base"
+      }
+    }
+  } ,
+
+  "angry1": {
+    "weight": 4,
+    "type": "gun",
+    "attrGethers": {
+      "exmodifier:percent_heal": {
+        "value": 0.01,
+        "minValue": 0.01,
+        "maxValue": 0.1,
+        "slot": "auto",
+        "operation": "multiply_base"
+      }
+    }
+  } ,
+  "at2": {
+    "weight": 10,
+    "attrGethers": {
+      "minecraft:generic.attack_damage": {
+        "value": 0.01,
+        "minValue": 0.1,
+        "maxValue": 1,
+        "slot": "auto",
+        "operation": "multiply_base"
+      }
+    }
+  }
+}

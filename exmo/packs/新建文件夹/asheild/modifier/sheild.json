@@ -1,0 +1,35 @@
+{
+    "type": "SHIELD",
+    "MEShield": {
+      "cantSelect":"true",
+      "weight": 5,
+      "attrGethers": {
+        "exmodifier:injury_free": {
+          "minValue": -0.01,
+          "maxValue": -0.05,
+          "value": 0.01,
+          "slot": "auto",
+          "operation": "multiply_base"
+        },
+        "exmodifier:durability": {
+            "minValue": 2,
+            "maxValue": 5,
+            "value": 0.01,
+            "slot": "auto",
+            "operation": "multiply_base"
+          },
+          "minecraft:generic.movement_speed": {
+            "value": 0.1,
+            "slot": "auto",
+            "operation": "multiply_base"
+          },
+          "minecraft:generic.attack_damage": {
+            "minValue": 0.02,
+            "maxValue": 0.07,
+            "value": 0.01,
+            "slot": "auto",
+            "operation": "multiply_base"
+          }
+        }
+    }
+  }

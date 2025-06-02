@@ -1,0 +1,22 @@
+{
+  "example_type": {
+    "name": "slashblade",
+    "selectors": [
+      {
+        "type": "ID",
+        "itemIds": [ "slashblade:slashblade" ]
+      }
+    ],
+    "equipmentSlot": [ "MAINHAND" ]
+  },
+  "example_type_1": {
+    "name": "gun",
+    "selectors": [
+      {
+        "type": "ID",
+        "itemIds": [ "tacz:modern_kinetic_gun" ]
+      }
+    ],
+    "equipmentSlot": [ "MAINHAND" ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "example_type": {
+    "name": "gun",
+    "selectors": [
+      {
+        "type": "ID",
+        "itemIds": ["tacz:modern_kinetic_gun"]
+      }
+    ],
+    "equipmentSlot": ["MAINHAND"]
+  }
+}

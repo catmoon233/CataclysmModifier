@@ -1,0 +1,11 @@
+{
+"type": "ATTACKABLE",
+ "W-yanhen": {
+      "cantSelect": true
+  },
+  "W-zangyan": {
+      "cantSelect": true,
+      "specialTags": ["zangyan"],
+      "localDescription": "§6炎葬专属\n§7攻击拥有炽热烙印的敌人时额外增加buff等级的§e攻击伤害\n§7攻击处于着火状态的敌人时增加§e10%§7伤害\n§7受到免疫火焰伤害的敌人攻击时减少§e5%§7受到的伤害"
+  }
+}

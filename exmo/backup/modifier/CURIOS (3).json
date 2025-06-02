@@ -1,0 +1,1162 @@
+{  "type": "CURIOS",
+"curios1": {
+  "weight": 300,
+  "isRandom":true,
+  "RandomNum":"2",
+  "attrGethers": {
+"irons_spellbooks:spell_power": {
+      "weight":4,
+      "value": 0.025,
+      "slot": "auto",
+      "autoUUID": true,
+      "autoName":true,
+      "operation":"multiply_base"
+    },
+"irons_spellbooks:cast_time_reduction": {
+        "weight":4,
+      "value": 0.02,
+        "slot": "auto",
+      "autoUUID": true,
+      "autoName":true,
+      "operation":"multiply_base"
+    },
+"isfix:magic_restore": {
+      "weight":4,
+    "value": 5,
+    "slot": "auto",
+    "autoUUID": true,
+    "autoName":true,
+    "operation":"add"
+  },
+"minecraft:generic.max_health": {
+      "weight":24,
+    "value": 0.01,
+    "slot": "auto",
+    "autoUUID": true,
+    "autoName":true,
+    "operation":"multiply_base"
+  },
+
+"minecraft:generic.armor": {
+      "weight":4,
+    "value": 0.25,
+    "slot": "auto",
+    "autoUUID": true,
+    "autoName":true,
+    "operation":"add"
+  },
+
+"twtp:mianshan": {
+      "weight":4,
+    "value": 0.25,
+    "slot": "auto",
+    "autoUUID": true,
+    "autoName":true,
+    "operation":"add"
+  },
+
+"minecraft:generic.luck": {
+      "weight":4,
+    "value": 0.25,
+    "slot": "auto",
+    "autoUUID": true,
+    "autoName":true,
+    "operation":"add"
+  },
+
+"minecraft:generic.attack_speed": {
+      "weight":4,
+    "value": 0.015,
+    "slot": "auto",
+    "autoUUID": true,
+    "autoName":true,
+    "operation":"multiply_base"
+  },
+
+"attack_again:attack_probability": {
+      "weight":4,
+    "value": 0.005,
+
+
+    "slot": "auto",
+    "autoUUID": true,
+    "autoName":true,
+    "operation":"multiply_base"
+  },
+
+"attack_again:attack_damage": {
+      "weight":4,
+    "value": 0.005,
+    "slot": "auto",
+    "autoUUID": true,
+    "autoName":true,
+    "operation":"multiply_base"
+  },
+
+"twtp:alldamage": {
+      "weight":4,
+    "value": 2,
+    "slot": "auto",
+    "autoUUID": true,
+    "autoName":true,
+    "operation":"add"
+  },
+
+"twtp:axedamage": {
+      "weight":4,
+    "value": 4,
+    "slot": "auto",
+    "autoUUID": true,
+    "autoName":true,
+    "operation":"add"
+  },
+
+"apotheosis:crit_chance": {
+      "weight":4,
+    "value": 0.005,
+    "slot": "auto",
+    "autoUUID": true,
+    "autoName":true,
+    "operation":"multiply_base"
+  },
+
+"apotheosis:crit_damage": {
+      "weight":4,
+    "value": 0.025,
+    "slot": "auto",
+    "autoUUID": true,
+    "autoName":true,
+    "operation":"multiply_base"
+  },
+
+"twtp:zhenshan": {
+      "weight":4,
+    "value": 0.2,
+    "slot": "auto",
+    "autoUUID": true,
+    "autoName":true,
+    "operation":"multiply_base"
+  },
+
+"apotheosis:cold_damage": {
+      "weight":4,
+    "value": 0.2,
+    "slot": "auto",
+    "autoUUID": true,
+    "autoName":true,
+    "operation":"multiply_base"
+  },
+"apotheosis:fire_damage": {
+      "weight":4,
+    "value": 0.2,
+    "slot": "auto",
+    "autoUUID": true,
+    "autoName":true,
+    "operation":"multiply_base"
+  },
+
+"apotheosis:piercing": {
+      "weight":4,
+    "value": 0.005,
+    "slot": "auto",
+    "autoUUID": true,
+    "autoName":true,
+    "operation":"multiply_base"
+  },
+
+"apotheosis:arrow_damage": {
+      "weight":4,
+    "value": 0.1,
+    "slot": "auto",
+    "autoUUID": true,
+    "autoName":true,
+    "operation":"multiply_base"
+  },
+
+"irons_spellbooks:cooldown_reduction": {
+      "weight":4,
+    "value": 0.02,
+    "slot": "auto",
+    "autoUUID": true,
+    "autoName":true,
+    "operation":"multiply_base"
+  },
+
+"minecraft:generic.armor_toughness": {
+        "weight":4,
+      "value": 0.25,
+      "slot": "auto",
+      "autoUUID": true,
+      "autoName":true,
+      "operation":"add"
+    },
+"apotheosis:overheal": {
+        "weight":4,
+      "value": 0.2,
+      "slot": "auto",
+      "autoUUID": true,
+      "autoName":true,
+      "operation":"multiply_base"
+    },
+"apotheosis:arrow_velocity": {
+        "weight":4,
+      "value": 0.1,
+      "slot": "auto",
+      "autoUUID": true,
+      "autoName":true,
+      "operation":"multiply_base"
+    },
+"exmodifier:hit_rate": {
+        "weight":4,
+      "value": 0.01,
+      "slot": "auto",
+      "autoUUID": true,
+      "autoName":true,
+      "operation":"multiply_base"
+    },
+"exmodifier:dodge": {
+        "weight":4,
+      "value": 0.005,
+      "slot": "auto",
+      "autoUUID": true,
+      "autoName":true,
+      "operation":"multiply_base"
+    }
+  }
+},
+
+
+
+
+"curios2": {
+  "weight": 1,
+  "isRandom":true,
+  "RandomNum":"2",
+  "attrGethers": {
+"irons_spellbooks:spell_power": {
+      "weight":4,
+      "value": 0.05,
+      "slot": "auto",
+      "autoUUID": true,
+      "autoName":true,
+      "operation":"multiply_base"
+    },
+"irons_spellbooks:cast_time_reduction": {
+        "weight":4,
+      "value": 0.04,
+        "slot": "auto",
+      "autoUUID": true,
+      "autoName":true,
+      "operation":"multiply_base"
+    },
+"isfix:magic_restore": {
+      "weight":4,
+    "value": 5,
+    "slot": "auto",
+    "autoUUID": true,
+    "autoName":true,
+    "operation":"add"
+  },
+"minecraft:generic.max_health": {
+      "weight":24,
+    "value": 0.02,
+    "slot": "auto",
+    "autoUUID": true,
+    "autoName":true,
+    "operation":"multiply_base"
+  },
+
+"minecraft:generic.armor": {
+      "weight":4,
+    "value": 0.5,
+    "slot": "auto",
+    "autoUUID": true,
+    "autoName":true,
+    "operation":"add"
+  },
+
+"twtp:mianshan": {
+      "weight":4,
+    "value": 0.5,
+    "slot": "auto",
+    "autoUUID": true,
+    "autoName":true,
+    "operation":"add"
+  },
+
+"minecraft:generic.luck": {
+      "weight":4,
+    "value": 0.5,
+    "slot": "auto",
+    "autoUUID": true,
+    "autoName":true,
+    "operation":"add"
+  },
+
+"minecraft:generic.attack_speed": {
+      "weight":4,
+    "value": 0.03,
+    "slot": "auto",
+    "autoUUID": true,
+    "autoName":true,
+    "operation":"multiply_base"
+  },
+
+"attack_again:attack_probability": {
+      "weight":4,
+    "value": 0.01,
+
+
+    "slot": "auto",
+    "autoUUID": true,
+    "autoName":true,
+    "operation":"multiply_base"
+  },
+
+"attack_again:attack_damage": {
+      "weight":4,
+    "value": 0.01,
+    "slot": "auto",
+    "autoUUID": true,
+    "autoName":true,
+    "operation":"multiply_base"
+  },
+
+"twtp:alldamage": {
+      "weight":4,
+    "value": 4,
+    "slot": "auto",
+    "autoUUID": true,
+    "autoName":true,
+    "operation":"add"
+  },
+
+"twtp:axedamage": {
+      "weight":4,
+    "value": 8,
+    "slot": "auto",
+    "autoUUID": true,
+    "autoName":true,
+    "operation":"add"
+  },
+
+"apotheosis:crit_chance": {
+      "weight":4,
+    "value": 0.01,
+    "slot": "auto",
+    "autoUUID": true,
+    "autoName":true,
+    "operation":"multiply_base"
+  },
+
+"apotheosis:crit_damage": {
+      "weight":4,
+    "value": 0.05,
+    "slot": "auto",
+    "autoUUID": true,
+    "autoName":true,
+    "operation":"multiply_base"
+  },
+
+"twtp:zhenshan": {
+      "weight":4,
+    "value": 0.4,
+    "slot": "auto",
+    "autoUUID": true,
+    "autoName":true,
+    "operation":"multiply_base"
+  },
+
+"apotheosis:cold_damage": {
+      "weight":4,
+    "value": 0.4,
+    "slot": "auto",
+    "autoUUID": true,
+    "autoName":true,
+    "operation":"multiply_base"
+  },
+"apotheosis:fire_damage": {
+      "weight":4,
+    "value": 0.4,
+    "slot": "auto",
+    "autoUUID": true,
+    "autoName":true,
+    "operation":"multiply_base"
+  },
+
+"apotheosis:piercing": {
+      "weight":4,
+    "value": 0.01,
+    "slot": "auto",
+    "autoUUID": true,
+    "autoName":true,
+    "operation":"multiply_base"
+  },
+
+"apotheosis:arrow_damage": {
+      "weight":4,
+    "value": 0.2,
+    "slot": "auto",
+    "autoUUID": true,
+    "autoName":true,
+    "operation":"multiply_base"
+  },
+
+"irons_spellbooks:cooldown_reduction": {
+      "weight":4,
+    "value": 0.04,
+    "slot": "auto",
+    "autoUUID": true,
+    "autoName":true,
+    "operation":"multiply_base"
+  },
+
+"minecraft:generic.armor_toughness": {
+        "weight":4,
+      "value": 0.5,
+      "slot": "auto",
+      "autoUUID": true,
+      "autoName":true,
+      "operation":"add"
+    },
+"apotheosis:overheal": {
+        "weight":4,
+      "value": 0.4,
+      "slot": "auto",
+      "autoUUID": true,
+      "autoName":true,
+      "operation":"multiply_base"
+    },
+"apotheosis:arrow_velocity": {
+        "weight":4,
+      "value": 0.2,
+      "slot": "auto",
+      "autoUUID": true,
+      "autoName":true,
+      "operation":"multiply_base"
+    },
+    "exmodifier:hit_rate": {
+            "weight":4,
+          "value": 0.02,
+          "slot": "auto",
+          "autoUUID": true,
+          "autoName":true,
+          "operation":"multiply_base"
+        },
+    "exmodifier:dodge": {
+            "weight":4,
+          "value": 0.01,
+          "slot": "auto",
+          "autoUUID": true,
+          "autoName":true,
+          "operation":"multiply_base"
+        }
+  }
+},
+
+"curios3": {
+  "weight": 301,
+  "isRandom":true,
+  "RandomNum":"2",
+  "attrGethers": {
+"irons_spellbooks:spell_power": {
+      "weight":4,
+      "value": 0.025,
+      "slot": "auto",
+      "autoUUID": true,
+      "autoName":true,
+      "operation":"multiply_base"
+    },
+"irons_spellbooks:cast_time_reduction": {
+        "weight":4,
+      "value": 0.02,
+        "slot": "auto",
+      "autoUUID": true,
+      "autoName":true,
+      "operation":"multiply_base"
+    },
+"isfix:magic_restore": {
+      "weight":4,
+    "value": 5,
+    "slot": "auto",
+    "autoUUID": true,
+    "autoName":true,
+    "operation":"add"
+  },
+"minecraft:generic.max_health": {
+      "weight":24,
+    "value": 0.01,
+    "slot": "auto",
+    "autoUUID": true,
+    "autoName":true,
+    "operation":"multiply_base"
+  },
+
+"minecraft:generic.armor": {
+      "weight":4,
+    "value": 0.25,
+    "slot": "auto",
+    "autoUUID": true,
+    "autoName":true,
+    "operation":"add"
+  },
+
+"twtp:mianshan": {
+      "weight":4,
+    "value": 0.25,
+    "slot": "auto",
+    "autoUUID": true,
+    "autoName":true,
+    "operation":"add"
+  },
+
+"minecraft:generic.luck": {
+      "weight":4,
+    "value": 0.25,
+    "slot": "auto",
+    "autoUUID": true,
+    "autoName":true,
+    "operation":"add"
+  },
+
+"minecraft:generic.attack_speed": {
+      "weight":4,
+    "value": 0.015,
+    "slot": "auto",
+    "autoUUID": true,
+    "autoName":true,
+    "operation":"multiply_base"
+  },
+
+"attack_again:attack_probability": {
+      "weight":4,
+    "value": 0.005,
+
+
+    "slot": "auto",
+    "autoUUID": true,
+    "autoName":true,
+    "operation":"multiply_base"
+  },
+
+"attack_again:attack_damage": {
+      "weight":4,
+    "value": 0.005,
+    "slot": "auto",
+    "autoUUID": true,
+    "autoName":true,
+    "operation":"multiply_base"
+  },
+
+"twtp:alldamage": {
+      "weight":4,
+    "value": 2,
+    "slot": "auto",
+    "autoUUID": true,
+    "autoName":true,
+    "operation":"add"
+  },
+
+"twtp:axedamage": {
+      "weight":4,
+    "value": 4,
+    "slot": "auto",
+    "autoUUID": true,
+    "autoName":true,
+    "operation":"add"
+  },
+
+"apotheosis:crit_chance": {
+      "weight":4,
+    "value": 0.005,
+    "slot": "auto",
+    "autoUUID": true,
+    "autoName":true,
+    "operation":"multiply_base"
+  },
+
+"apotheosis:crit_damage": {
+      "weight":4,
+    "value": 0.025,
+    "slot": "auto",
+    "autoUUID": true,
+    "autoName":true,
+    "operation":"multiply_base"
+  },
+
+"twtp:zhenshan": {
+      "weight":4,
+    "value": 0.2,
+    "slot": "auto",
+    "autoUUID": true,
+    "autoName":true,
+    "operation":"multiply_base"
+  },
+
+"apotheosis:cold_damage": {
+      "weight":4,
+    "value": 0.2,
+    "slot": "auto",
+    "autoUUID": true,
+    "autoName":true,
+    "operation":"multiply_base"
+  },
+"apotheosis:fire_damage": {
+      "weight":4,
+    "value": 0.2,
+    "slot": "auto",
+    "autoUUID": true,
+    "autoName":true,
+    "operation":"multiply_base"
+  },
+
+"apotheosis:piercing": {
+      "weight":4,
+    "value": 0.005,
+    "slot": "auto",
+    "autoUUID": true,
+    "autoName":true,
+    "operation":"multiply_base"
+  },
+
+"apotheosis:arrow_damage": {
+      "weight":4,
+    "value": 0.1,
+    "slot": "auto",
+    "autoUUID": true,
+    "autoName":true,
+    "operation":"multiply_base"
+  },
+
+"irons_spellbooks:cooldown_reduction": {
+      "weight":4,
+    "value": 0.02,
+    "slot": "auto",
+    "autoUUID": true,
+    "autoName":true,
+    "operation":"multiply_base"
+  },
+
+"minecraft:generic.armor_toughness": {
+        "weight":4,
+      "value": 0.25,
+      "slot": "auto",
+      "autoUUID": true,
+      "autoName":true,
+      "operation":"add"
+    },
+"apotheosis:overheal": {
+        "weight":4,
+      "value": 0.2,
+      "slot": "auto",
+      "autoUUID": true,
+      "autoName":true,
+      "operation":"multiply_base"
+    },
+"apotheosis:arrow_velocity": {
+        "weight":4,
+      "value": 0.1,
+      "slot": "auto",
+      "autoUUID": true,
+      "autoName":true,
+      "operation":"multiply_base"
+    },
+"exmodifier:hit_rate": {
+        "weight":4,
+      "value": 0.01,
+      "slot": "auto",
+      "autoUUID": true,
+      "autoName":true,
+      "operation":"multiply_base"
+    },
+"exmodifier:dodge": {
+        "weight":4,
+      "value": 0.005,
+      "slot": "auto",
+      "autoUUID": true,
+      "autoName":true,
+      "operation":"multiply_base"
+    }
+  }
+},
+
+
+"curios4": {
+  "weight": 2,
+  "isRandom":true,
+  "RandomNum":"2",
+  "attrGethers": {
+"irons_spellbooks:spell_power": {
+      "weight":4,
+      "value": 0.05,
+      "slot": "auto",
+      "autoUUID": true,
+      "autoName":true,
+      "operation":"multiply_base"
+    },
+"irons_spellbooks:cast_time_reduction": {
+        "weight":4,
+      "value": 0.04,
+        "slot": "auto",
+      "autoUUID": true,
+      "autoName":true,
+      "operation":"multiply_base"
+    },
+"isfix:magic_restore": {
+      "weight":4,
+    "value": 5,
+    "slot": "auto",
+    "autoUUID": true,
+    "autoName":true,
+    "operation":"add"
+  },
+"minecraft:generic.max_health": {
+      "weight":24,
+    "value": 0.02,
+    "slot": "auto",
+    "autoUUID": true,
+    "autoName":true,
+    "operation":"multiply_base"
+  },
+
+"minecraft:generic.armor": {
+      "weight":4,
+    "value": 0.5,
+    "slot": "auto",
+    "autoUUID": true,
+    "autoName":true,
+    "operation":"add"
+  },
+
+"twtp:mianshan": {
+      "weight":4,
+    "value": 0.5,
+    "slot": "auto",
+    "autoUUID": true,
+    "autoName":true,
+    "operation":"add"
+  },
+
+"minecraft:generic.luck": {
+      "weight":4,
+    "value": 0.5,
+    "slot": "auto",
+    "autoUUID": true,
+    "autoName":true,
+    "operation":"add"
+  },
+
+"minecraft:generic.attack_speed": {
+      "weight":4,
+    "value": 0.03,
+    "slot": "auto",
+    "autoUUID": true,
+    "autoName":true,
+    "operation":"multiply_base"
+  },
+
+"attack_again:attack_probability": {
+      "weight":4,
+    "value": 0.01,
+
+
+    "slot": "auto",
+    "autoUUID": true,
+    "autoName":true,
+    "operation":"multiply_base"
+  },
+
+"attack_again:attack_damage": {
+      "weight":4,
+    "value": 0.01,
+    "slot": "auto",
+    "autoUUID": true,
+    "autoName":true,
+    "operation":"multiply_base"
+  },
+
+"twtp:alldamage": {
+      "weight":4,
+    "value": 4,
+    "slot": "auto",
+    "autoUUID": true,
+    "autoName":true,
+    "operation":"add"
+  },
+
+"twtp:axedamage": {
+      "weight":4,
+    "value": 8,
+    "slot": "auto",
+    "autoUUID": true,
+    "autoName":true,
+    "operation":"add"
+  },
+
+"apotheosis:crit_chance": {
+      "weight":4,
+    "value": 0.01,
+    "slot": "auto",
+    "autoUUID": true,
+    "autoName":true,
+    "operation":"multiply_base"
+  },
+
+"apotheosis:crit_damage": {
+      "weight":4,
+    "value": 0.05,
+    "slot": "auto",
+    "autoUUID": true,
+    "autoName":true,
+    "operation":"multiply_base"
+  },
+
+"twtp:zhenshan": {
+      "weight":4,
+    "value": 0.4,
+    "slot": "auto",
+    "autoUUID": true,
+    "autoName":true,
+    "operation":"multiply_base"
+  },
+
+"apotheosis:cold_damage": {
+      "weight":4,
+    "value": 0.4,
+    "slot": "auto",
+    "autoUUID": true,
+    "autoName":true,
+    "operation":"multiply_base"
+  },
+"apotheosis:fire_damage": {
+      "weight":4,
+    "value": 0.4,
+    "slot": "auto",
+    "autoUUID": true,
+    "autoName":true,
+    "operation":"multiply_base"
+  },
+
+"apotheosis:piercing": {
+      "weight":4,
+    "value": 0.01,
+    "slot": "auto",
+    "autoUUID": true,
+    "autoName":true,
+    "operation":"multiply_base"
+  },
+
+"apotheosis:arrow_damage": {
+      "weight":4,
+    "value": 0.2,
+    "slot": "auto",
+    "autoUUID": true,
+    "autoName":true,
+    "operation":"multiply_base"
+  },
+
+"irons_spellbooks:cooldown_reduction": {
+      "weight":4,
+    "value": 0.04,
+    "slot": "auto",
+    "autoUUID": true,
+    "autoName":true,
+    "operation":"multiply_base"
+  },
+
+"minecraft:generic.armor_toughness": {
+        "weight":4,
+      "value": 0.5,
+      "slot": "auto",
+      "autoUUID": true,
+      "autoName":true,
+      "operation":"add"
+    },
+"apotheosis:overheal": {
+        "weight":4,
+      "value": 0.4,
+      "slot": "auto",
+      "autoUUID": true,
+      "autoName":true,
+      "operation":"multiply_base"
+    },
+"apotheosis:arrow_velocity": {
+        "weight":4,
+      "value": 0.2,
+      "slot": "auto",
+      "autoUUID": true,
+      "autoName":true,
+      "operation":"multiply_base"
+    },
+    "exmodifier:hit_rate": {
+            "weight":4,
+          "value": 0.02,
+          "slot": "auto",
+          "autoUUID": true,
+          "autoName":true,
+          "operation":"multiply_base"
+        },
+    "exmodifier:dodge": {
+            "weight":4,
+          "value": 0.01,
+          "slot": "auto",
+          "autoUUID": true,
+          "autoName":true,
+          "operation":"multiply_base"
+        }
+  }
+},
+"all-bingyu": {
+          "weight": 1,
+          "isRandom":false,
+          "RandomNum":2,
+          "attrGethers": {
+            "minecraft:generic.max_health": {
+              "weight":0,
+              "value": 2,
+              "uuid": "123e4567-e89b-12d3-a456-426614174001",
+              "modifierName": "CustomAttributesModifier",
+              "slot": "auto",
+          "autoUUID": true,
+"autoName":true,
+              "operation":"add"
+            },
+            "apotheosis:cold_damage": {
+              "weight":0,
+              "value": 2,
+              "uuid": "123e4567-e89b-12d3-a456-426614174001",
+              "modifierName": "CustomAttributesModifier",
+              "slot": "auto",
+          "autoUUID": true,
+             "autoName":true,
+              "operation":"add"
+            }
+        }
+},
+"all-kuangzhanshi": {
+          "weight": 1,
+          "isRandom":false,
+          "RandomNum":2,
+          "attrGethers": {
+            "minecraft:generic.max_health": {
+              "weight":0,
+              "value": 2,
+              "uuid": "123e4567-e89b-12d3-a456-426614174001",
+              "modifierName": "CustomAttributesModifier",
+              "slot": "auto",
+          "autoUUID": true,
+"autoName":true,
+              "operation":"add"
+            },
+            "minecraft:generic.attack_speed": {
+              "weight":0,
+              "value": 0.1,
+              "uuid": "123e4567-e89b-12d3-a456-426614174001",
+              "modifierName": "CustomAttributesModifier",
+              "slot": "auto",
+          "autoUUID": true,
+"autoName":true,
+              "operation":"multiply_base"
+            }
+        }
+},
+
+"all-shenyuanzhaohuan": {
+          "weight": 1,
+          "isRandom":false,
+          "RandomNum":2,
+          "attrGethers": {
+            "minecraft:generic.max_health": {
+              "weight":0,
+              "value": 2,
+              "uuid": "123e4567-e89b-12d3-a456-426614174001",
+              "modifierName": "CustomAttributesModifier",
+              "slot": "auto",
+          "autoUUID": true,
+"autoName":true,
+              "operation":"add"
+            },
+            "irons_spellbooks:cast_time_reduction": {
+              "weight":0,
+              "value": 0.1,
+              "uuid": "123e4567-e89b-12d3-a456-426614174001",
+              "modifierName": "CustomAttributesModifier",
+              "slot": "auto",
+          "autoUUID": true,
+"autoName":true,
+              "operation":"multiply_base"
+            }
+        }
+},
+
+"all-liuxing": {
+          "weight": 1,
+          "isRandom":false,
+          "RandomNum":2,
+          "attrGethers": {
+            "minecraft:generic.max_health": {
+              "weight":0,
+              "value": 2,
+              "uuid": "123e4567-e89b-12d3-a456-426614174001",
+              "modifierName": "CustomAttributesModifier",
+              "slot": "auto",
+          "autoUUID": true,
+"autoName":true,
+              "operation":"add"
+            },
+            "apotheosis:arrow_damage": {
+              "weight":0,
+              "value": 0.2,
+              "uuid": "123e4567-e89b-12d3-a456-426614174001",
+              "modifierName": "CustomAttributesModifier",
+              "slot": "auto",
+          "autoUUID": true,
+"autoName":true,
+              "operation":"multiply_base"
+            }
+        }
+},
+
+"all-rongyan": {
+          "weight": 1,
+          "isRandom":false,
+          "RandomNum":2,
+          "attrGethers": {
+            "minecraft:generic.max_health": {
+              "weight":0,
+              "value": 2,
+              "uuid": "123e4567-e89b-12d3-a456-426614174001",
+              "modifierName": "CustomAttributesModifier",
+              "slot": "auto",
+          "autoUUID": true,
+"autoName":true,
+              "operation":"add"
+            },
+            "twtp:zhenshan": {
+              "weight":0,
+              "value": 2,
+              "uuid": "123e4567-e89b-12d3-a456-426614174001",
+              "modifierName": "CustomAttributesModifier",
+              "slot": "auto",
+          "autoUUID": true,
+"autoName":true,
+              "operation":"add"
+            }
+        }
+},
+
+"all-shuangzixing": {
+          "weight": 1,
+          "isRandom":false,
+          "RandomNum":2,
+          "attrGethers": {
+            "minecraft:generic.max_health": {
+              "weight":0,
+              "value": 2,
+              "uuid": "123e4567-e89b-12d3-a456-426614174001",
+              "modifierName": "CustomAttributesModifier",
+              "slot": "auto",
+          "autoUUID": true,
+"autoName":true,
+              "operation":"add"
+            },
+            "minecraft:generic.armor": {
+              "weight":0,
+              "value": 2,
+              "uuid": "123e4567-e89b-12d3-a456-426614174001",
+              "modifierName": "CustomAttributesModifier",
+              "slot": "auto",
+          "autoUUID": true,
+"autoName":true,
+              "operation":"add"
+            }
+        }
+},
+
+
+"all-muke": {
+          "weight": 1,
+          "isRandom":false,
+          "RandomNum":2,
+          "attrGethers": {
+            "minecraft:generic.max_health": {
+              "weight":0,
+              "value": 2,
+              "uuid": "123e4567-e89b-12d3-a456-426614174001",
+              "modifierName": "CustomAttributesModifier",
+              "slot": "auto",
+          "autoUUID": true,
+"autoName":true,
+              "operation":"add"
+            },
+            "apotheosis:piercing": {
+              "weight":0,
+              "value": 0.02,
+              "uuid": "123e4567-e89b-12d3-a456-426614174001",
+              "modifierName": "CustomAttributesModifier",
+              "slot": "auto",
+          "autoUUID": true,
+"autoName":true,
+              "operation":"multiply_base"
+            }
+        }
+},
+
+"all-jinglingzhiwu": {
+  "weight": 1,
+  "isRandom":false,
+  "RandomNum":2,
+  "attrGethers": {
+    "minecraft:generic.max_health": {
+      "weight":0,
+      "value": 2,
+      "uuid": "123e4567-e89b-12d3-a456-426614174001",
+      "modifierName": "CustomAttributesModifier",
+      "slot": "auto",
+  "autoUUID": true,
+"autoName":true,
+      "operation":"add"
+    },
+    "exmodifier:dodge": {
+      "weight":0,
+      "value": 0.02,
+      "uuid": "123e4567-e89b-12d3-a456-426614174001",
+      "modifierName": "CustomAttributesModifier",
+      "slot": "auto",
+  "autoUUID": true,
+"autoName":true,
+      "operation":"multiply_base"
+    }
+}
+},
+"all-taiyangshen": {
+          "weight": 1,
+  "needFreshValue": 1,
+          "isRandom":false,
+          "RandomNum":2,
+          "attrGethers": {
+            "minecraft:generic.max_health": {
+              "weight":0,
+              "value": 2,
+              "uuid": "123e4567-e89b-12d3-a456-426614174001",
+              "modifierName": "CustomAttributesModifier",
+              "slot": "auto",
+          "autoUUID": true,
+"autoName":true,
+              "operation":"add"
+            },
+            "apotheosis:fire_damage": {
+              "weight":0,
+              "value": 2,
+              "uuid": "123e4567-e89b-12d3-a456-426614174001",
+              "modifierName": "CustomAttributesModifier",
+              "slot": "auto",
+          "autoUUID": true,
+"autoName":true,
+              "operation":"add"
+            }
+        }
+}
+
+}
+

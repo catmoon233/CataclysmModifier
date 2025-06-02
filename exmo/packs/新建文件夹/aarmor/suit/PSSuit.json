@@ -1,0 +1,39 @@
+{
+    "type": "ARMOR",
+    "PSarmor1": {
+	"visible":true,
+        "1":{
+
+        },
+        "2":{
+
+        },
+        "3":{
+
+        },
+      "4": {
+        "trigger": "ON_HURT",
+        "commands": [
+          "execute as @s at @s run particle minecraft:large_smoke ~ ~1 ~ 0.05 -0.05 0.04 0.2 10 normal",
+          "playsound minecraft:entity.generic.extinguish_fire player @s"
+        ],
+        "effect": {
+          "minecraft:resistance": {
+            "level": 2,
+            "time": 80
+          },
+          "minecraft:regeneration": {
+            "level": 1,
+            "time": 50
+          }
+        },
+        "attrGethers": {
+          "minecraft:generic.knockback_resistance": {
+            "autoUUID": true,
+            "value": 0.1,
+            "operation":"add"
+          }
+        }
+      }
+    } 
+}

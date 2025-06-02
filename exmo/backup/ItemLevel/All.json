@@ -1,0 +1,84 @@
+{
+  "type": "ATTACKABLE",
+  "weapon": {
+    "type": "ATTACKABLE",
+    "weight": 10,
+    "UnlessItemTags": [
+      "minecraft:pickaxes"
+    ],
+    "XpAddExpression": "0.1*amount+1",
+    "DefaultLevel": 0,
+    "LevelExpression": "13 * 1.4^lv + 0.5 * lv + 1",
+    "MaxLevel": 100,
+    "UpEvent": "ATTACK",
+    "attrGethers": {
+      "act": {
+        "id": "minecraft:generic.attack_damage",
+        "Expression": "level*0.01",
+        "slot": "auto",
+        "autoName": true,
+        "operation": "multiply_total"
+      }
+    }
+
+  },
+  "tool": {
+    "type": "ATTACKABLE",
+    "OnlyItemTags": [
+      "minecraft:pickaxes"
+    ],
+    "weight": 10,
+    "XpAddExpression": "1",
+    "DefaultLevel": 0,
+    "LevelExpression": "10 * 1.15^lv + 0.5 * lv + 1",
+    "MaxLevel": 100,
+    "UpEvent": "DIG",
+    "attrGethers": {
+      "act": {
+        "id": "exmodifier:dig_speed",
+        "Expression": "level*0.01",
+        "slot": "auto",
+        "autoName": true,
+        "operation": "multiply_total"
+      }
+    }
+  },
+    "gun": {
+      "type": "gun",
+      "weight": 10,
+      "XpAddExpression": "1",
+      "DefaultLevel": 0,
+      "LevelExpression": "10 * 1.15^lv + 0.5 * lv + 1",
+      "MaxLevel": 100,
+      "UpEvent": "ATTACK",
+      "attrGethers": {
+        "act": {
+          "id": "exmodifier:arrow_base_damage",
+          "Expression": "level*0.01",
+          "slot": "auto",
+          "autoName": true,
+          "operation": "multiply_total"
+        }
+      }
+    },
+
+    "armor": {
+      "type": "ARMOR",
+      "weight": 10,
+      "XpAddExpression": "0.1*amount+1",
+      "DefaultLevel": 0,
+      "LevelExpression": "14*1.4^lv+1",
+      "MaxLevel": 100,
+      "EntitySequence": 0,
+      "UpEvent": "ON_HURT",
+      "attrGethers": {
+        "act": {
+          "id": "minecraft:generic.armor",
+          "Expression": "level*0.01",
+          "slot": "auto",
+          "autoName": true,
+          "operation": "multiply_total"
+        }
+      }
+    }
+  }

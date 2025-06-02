@@ -1,0 +1,186 @@
+{
+  "type": "CURIOS-ALL",
+  "curios1": {
+    "weight": 10,
+    "isRandom": false,
+    "RandomNum": 4,
+    "attrGethers": {
+      "minecraft:generic.max_health": {
+        "weight": 0,
+        "value": 0.5,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "add"
+      }
+    }
+  },
+  "curios2": {
+    "weight": 10,
+    "isRandom": false,
+    "RandomNum": 3,
+    "attrGethers": {
+      "minecraft:generic.armor": {
+        "weight": 0,
+        "value": 0.1,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "add"
+      }
+    }
+  },
+  "curios3": {
+    "weight": 10,
+    "isRandom": false,
+    "RandomNum": 4,
+    "attrGethers": {
+      "minecraft:generic.max_health": {
+        "weight": 0,
+        "value": 1,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "add"
+      }
+    }
+  },
+  "curios4": {
+    "weight": 10,
+    "isRandom": false,
+    "RandomNum": 3,
+    "attrGethers": {
+      "minecraft:generic.armor": {
+        "weight": 0,
+        "value": 0.2,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "add"
+      },
+      "minecraft:generic.armor_toughness": {
+        "weight": 0,
+        "value": 0.2,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "add"
+      }
+    }
+  },
+  "curios5": {
+    "weight": 10,
+    "isRandom": false,
+    "RandomNum": 4,
+    "attrGethers": {
+      "exmodifier:dig_speed": {
+        "weight": 0,
+        "value": 0.05,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "multiply_base"
+      }
+    }
+  },
+  "curios6": {
+    "weight": 10,
+    "isRandom": false,
+    "RandomNum": 4,
+    "attrGethers": {
+      "minecraft:generic.max_health": {
+        "weight": 0,
+        "value": -0.5,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "add"
+      },
+      "minecraft:generic.armor": {
+        "weight": 0,
+        "value": -0.25,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "add"
+      }
+    }
+  },
+  "curios7": {
+    "weight": 10,
+    "isRandom": false,
+    "RandomNum": 4,
+    "attrGethers": {
+      "minecraft:generic.armor": {
+        "weight": 0,
+        "value": -0.25,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "add"
+      }
+    }
+  },
+  "curios8": {
+    "weight": 10,
+    "isRandom": false,
+    "RandomNum": 4,
+    "attrGethers": {
+      "minecraft:generic.max_health": {
+        "weight": 0,
+        "value": -1,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "add"
+      }
+    }
+  },
+  "curios9": {
+    "weight": 10,
+    "isRandom": false,
+    "RandomNum": 4,
+    "attrGethers": {
+      "minecraft:generic.armor": {
+        "weight": 0,
+        "value": -0.2,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "add"
+      },
+      "minecraft:generic.armor_toughness": {
+        "weight": 0,
+        "value": -0.2,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "add"
+      }
+    }
+  },
+  "curios10": {
+    "weight": 10,
+    "isRandom": false,
+    "RandomNum": 4,
+    "attrGethers": {
+      "exmodifier:dig_speed": {
+        "weight": 0,
+        "value": -0.05,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "multiply_base"
+      },
+      "minecraft:generic.armor": {
+        "weight": 0,
+        "value": -0.25,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "add"
+      }
+    }
+  }
+}
+

@@ -1,0 +1,24 @@
+{
+    "type": "ATTACKABLE",
+    "W-yanhen":{
+    "LocalDescription":"§7攻击时会施加一层§4炽热烙印§r\n§7当敌人拥有五层炽热烙印时改为增加§e5§7点§e攻击伤害",
+	"visible":true,
+      "1": {
+        "trigger": "ATTACK",
+        "commands": [
+            "execute as $(hurtentity) if entity @s[nbt={ActiveEffects:[{\"forge:id\":\"cataclysm:blazing_brand\",Amplifier:4b}]}] run exmo-damageboost-amount-add 5",
+            "execute as $(hurtentity) if entity @s[nbt={ActiveEffects:[{\"forge:id\":\"cataclysm:blazing_brand\",Amplifier:4b}]}] run effect give @s cataclysm:blazing_brand 5 4",
+            "execute as $(hurtentity) if entity @s[nbt={ActiveEffects:[{\"forge:id\":\"cataclysm:blazing_brand\",Amplifier:3b}]}] run effect give @s cataclysm:blazing_brand 5 4",
+            "execute as $(hurtentity) if entity @s[nbt={ActiveEffects:[{\"forge:id\":\"cataclysm:blazing_brand\",Amplifier:2b}]}] run effect give @s cataclysm:blazing_brand 5 3",
+            "execute as $(hurtentity) if entity @s[nbt={ActiveEffects:[{\"forge:id\":\"cataclysm:blazing_brand\",Amplifier:1b}]}] run effect give @s cataclysm:blazing_brand 5 2",
+            "execute as $(hurtentity) if entity @s[nbt={ActiveEffects:[{\"forge:id\":\"cataclysm:blazing_brand\",Amplifier:0b}]}] run effect give @s cataclysm:blazing_brand 5 1",
+            "execute as $(hurtentity) unless entity @s[nbt={ActiveEffects:[{\"forge:id\":\"cataclysm:blazing_brand\"}]}] run effect give @s cataclysm:blazing_brand 5 0"
+
+        ],
+        "effect": {
+        },
+        "attrGethers": {
+        }
+    }
+    } 
+}

@@ -1,0 +1,65 @@
+{
+  "type": "ALL",
+  "effect4": {
+    "visible":true,
+    "1": {
+      "trigger": "ATTACK",
+      "commands": [
+        "effect give $(hurtentity) minecraft:slowness 10 $(level)",
+        "data modify entity $(hurtentity) HurtTime set value 0",
+        "data modify entity $(hurtentity) Motion set value [0d,0.5d,0d]",
+        "execute as @s at @s run particle minecraft:large_smoke ~ ~1 ~ 0.05 0.05 0.04 0.2 10 normal",
+        "effect give @s minecraft:speed 1 4",
+        "playsound minecraft:entity.zombie.attack_wooden_door player @a ~ ~ ~ 10 0"
+      ],
+      "effect": {
+        "minecraft:strength": {
+          "level": 2,
+          "time": 40
+        },
+        "minecraft:levitation": {
+          "level": 15,
+          "time": 3
+        }
+      },
+      "attrGethers": {
+        "minecraft:generic.knockback_resistance": {
+          "autoUUID": true,
+          "value": 0,
+
+
+          "operation":"add"
+        }
+      }
+    }
+  } ,
+  "angry": {
+    "visible":true,
+    "1": {
+      "trigger": "KILL",
+      "commands": [
+        "execute as @s at @s run attriEffect add @s \"exmodifier:angry\" 1 300 true",
+        "execute as @s at @s run particle minecraft:large_smoke ~ ~1 ~ 0.05 0.05 0.04 0.2 10 normal"
+      ],
+      "effect": {
+        "minecraft:strength": {
+          "level": 2,
+          "time": 40
+        },
+        "minecraft:levitation": {
+          "level": 15,
+          "time": 3
+        }
+      },
+      "attrGethers": {
+        "minecraft:generic.knockback_resistance": {
+          "autoUUID": true,
+          "value": 0,
+
+
+          "operation":"add"
+        }
+      }
+    }
+  }
+}

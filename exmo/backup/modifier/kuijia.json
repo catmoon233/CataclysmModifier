@@ -1,0 +1,470 @@
+{
+  "type": "ARMOR",
+  "armor1": {
+    "weight": 5,
+    "isRandom": false,
+    "RandomNum": 4,
+    "attrGethers": {
+      "minecraft:generic.max_health": {
+        "weight": 0,
+        "value": 4,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "add"
+      },
+      "minecraft:generic.armor": {
+        "weight": 0,
+        "value": 1.5,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "add"
+      },
+      "minecraft:generic.armor_toughness": {
+        "weight": 0,
+        "value": 1.5,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "add"
+      },
+      "generic.movement_speed": {
+        "weight": 0,
+        "value": 0.02,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "add"
+      },
+      "exmodifier:dodge": {
+        "weight": 0,
+        "value": 0.01,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "add"
+      },
+      "exmodifier:durability": {
+        "weight": 0,
+        "value": 1.25,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "multiply_base"
+      }
+    }
+  },
+  "armor2": {
+    "weight": 10,
+    "isRandom": false,
+    "RandomNum": 3,
+    "attrGethers": {
+      "minecraft:generic.max_health": {
+        "weight": 0,
+        "value": 4,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "add"
+      },
+      "exmodifier:durability": {
+        "weight": 0,
+        "value": 0.5,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "multiply_base"
+      }
+    }
+  },
+  "armor3": {
+    "weight": 15,
+    "isRandom": false,
+    "RandomNum": 4,
+    "attrGethers": {
+      "minecraft:generic.max_health": {
+        "weight": 0,
+        "value": 1,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "add"
+      },
+      "minecraft:generic.luck": {
+        "weight": 0,
+        "value": 0.1,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "add"
+      },
+      "minecraft:generic.armor_toughness": {
+        "weight": 0,
+        "value": 1,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "add"
+      },
+      "exmodifier:durability": {
+        "weight": 0,
+        "value": 0.08,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "multiply_base"
+      }
+    }
+  },
+
+  "armor4": {
+    "weight": 8,
+    "isRandom": false,
+    "RandomNum": 4,
+    "attrGethers": {
+      "minecraft:generic.luck": {
+        "weight": 0,
+        "value": 0.5,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "add"
+      },
+      "minecraft:generic.max_health": {
+        "weight": 0,
+        "value": 2,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "add"
+      },
+      "exmodifier:dodge": {
+        "weight": 0,
+        "value": 0.01,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "add"
+      },
+      "exmodifier:durability": {
+        "weight": 0,
+        "value": 0.15,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "multiply_base"
+      }
+    }
+  },
+
+  "armor5": {
+    "weight": 10,
+    "isRandom": false,
+    "RandomNum": 4,
+    "attrGethers": {
+      "minecraft:generic.armor": {
+        "weight": 0,
+        "value": 0.5,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "add"
+      },
+      "minecraft:generic.armor_toughness": {
+        "weight": 0,
+        "value": 1,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "add"
+      },
+      "exmodifier:durability": {
+        "weight": 0,
+        "value": 0.35,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "multiply_base"
+      }
+    }
+  },
+  "armor6": {
+    "weight": 12,
+    "isRandom": false,
+    "RandomNum": 4,
+    "attrGethers": {
+      "minecraft:generic.armor": {
+        "weight": 0,
+        "value": 0.5,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "add"
+      },
+      "minecraft:generic.armor_toughness": {
+        "weight": 0,
+        "value": -1,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "add"
+      },
+      "exmodifier:durability": {
+        "weight": 0,
+        "value": 0.35,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "multiply_base"
+      }
+    }
+  },
+  "armor7": {
+    "weight": 10,
+    "isRandom": false,
+    "RandomNum": 4,
+    "attrGethers": {
+      "minecraft:generic.armor": {
+        "weight": 0,
+        "value": -0.5,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "add"
+      },
+      "minecraft:generic.armor_toughness": {
+        "weight": 0,
+        "value": -0.5,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "add"
+      },
+      "exmodifier:durability": {
+        "weight": 0,
+        "value": -0.25,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "multiply_base"
+      }
+    }
+  },
+  "armor8": {
+    "weight": 10,
+    "isRandom": false,
+    "RandomNum": 4,
+    "attrGethers": {
+      "minecraft:generic.armor": {
+        "weight": 0,
+        "value": -1,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "add"
+      },
+      "minecraft:generic.armor_toughness": {
+        "weight": 0,
+        "value": -1,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "add"
+      },
+      "minecraft:generic.luck": {
+        "weight": 0,
+        "value": -0.5,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "add"
+      },
+      "exmodifier:durability": {
+        "weight": 0,
+        "value": -0.05,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "multiply_base"
+      }
+    }
+  },
+  "armor9": {
+    "weight": 13,
+    "isRandom": false,
+    "RandomNum": 4,
+    "attrGethers": {
+      "minecraft:generic.armor": {
+        "weight": 0,
+        "value": -2,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "add"
+      },
+      "minecraft:generic.armor_toughness": {
+        "weight": 0,
+        "value": 2,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "add"
+      }
+    }
+  },
+  "armor10": {
+    "weight": 7,
+    "isRandom": false,
+    "RandomNum": 4,
+    "attrGethers": {
+      "minecraft:generic.luck": {
+        "weight": 0,
+        "value": -2,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "add"
+      },
+      "minecraft:generic.max_health": {
+        "weight": 0,
+        "value": -2,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "add"
+      }
+    }
+  },
+  "armor11": {
+    "weight": 10,
+    "isRandom": false,
+    "RandomNum": 4,
+    "attrGethers": {
+      "minecraft:generic.luck": {
+        "weight": 0,
+        "value": 1,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "add"
+      },
+      "minecraft:generic.max_health": {
+        "weight": 0,
+        "value": -2,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "add"
+      }
+    }
+  },
+  "armor12": {
+    "weight": 10,
+    "isRandom": false,
+    "RandomNum": 4,
+    "attrGethers": {
+      "minecraft:generic.armor": {
+        "weight": 0,
+        "value": 1.5,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "add"
+      },
+      "minecraft:generic.armor_toughness": {
+        "weight": 0,
+        "value": 1.5,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "add"
+      },
+      "minecraft:generic.max_health": {
+        "weight": 0,
+        "value": -6,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "add"
+      },
+      "exmodifier:durability": {
+        "weight": 0,
+        "value": 0.65,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "multiply_base"
+      }
+    }
+  },
+  "armor13": {
+    "weight": 9,
+    "isRandom": false,
+    "RandomNum": 4,
+    "attrGethers": {
+      "forge:swim_speed": {
+        "weight": 0,
+        "value": 1,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "add"
+      },
+      "exmodifier:durability": {
+        "weight": 0,
+        "value": 0.75,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "multiply_base"
+      }
+    }
+  },
+  "armor14": {
+    "weight": 9,
+    "isRandom": false,
+    "RandomNum": 4,
+    "attrGethers": {
+      "forge:entity_gravity": {
+        "weight": 0,
+        "value": -0.025,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "add"
+      },
+      "exmodifier:durability": {
+        "weight": 0,
+        "value": 0.55,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "multiply_base"
+      }
+    }
+  },
+  "armor15": {
+    "weight": 9,
+    "isRandom": false,
+    "RandomNum": 4,
+    "attrGethers": {
+      "forge:entity_gravity": {
+        "weight": 0,
+        "value": 0.6,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "add"
+      },
+      "exmodifier:durability": {
+        "weight": 0,
+        "value": 0.55,
+        "slot": "auto",
+        "autoUUID": true,
+        "autoName": true,
+        "operation": "multiply_base"
+      }
+    }
+  }
+}
