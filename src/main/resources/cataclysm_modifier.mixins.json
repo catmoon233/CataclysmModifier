@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.exmo.cataclysm_modifier.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "cataclysm_modifier.refmap.json",
+  "mixins": [
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
