@@ -1,0 +1,63 @@
+{
+  "group": "cataclysm_modifier_tab",
+  "isList": true,
+  "A-shazhichen": {
+    "type": "ARMOR",
+    "icon": "cataclysm:textures/item/desert_eye.png",
+    "OnlyWashItems": [
+      "cataclysm:remnant_skull",
+"cataclysm:ancient_metal_block"
+    ],
+    "iconSize": "16",
+"specialTags": [
+      "shazhichen"
+    ],
+    "localDescription": "A-shazhichen_loc"
+  },
+  "A-yuangujinshu": {
+    "type": "ARMOR",
+    "icon": "cataclysm:textures/item/desert_eye.png",
+    "OnlyWashItems": [
+      "cataclysm:remnant_skull",
+"cataclysm:ancient_metal_block"
+    ],
+    "iconSize": "16",
+"specialTags": [
+      "yuangujinshu"
+    ],
+    "localDescription": "A-yuangujinshu_loc",
+    "attrGethers": {
+      "minecraft:generic.armor_toughness": {
+        "value": 10,
+        "slot": "auto",
+        "operation": "add"
+      }
+    }
+  },
+  "A-shabaofeng": {
+    "type": "ARMOR",
+    "icon": "cataclysm:textures/item/desert_eye.png",
+    "OnlyWashItems": [
+      "cataclysm:remnant_skull",
+"cataclysm:ancient_metal_block"
+    ],
+    "iconSize": "16",
+"specialTags": [
+      "shabaofeng"
+    ],
+    "localDescription": "A-shabaofeng_loc"
+  },
+  "A-yihun": {
+    "type": "ARMOR",
+    "icon": "cataclysm:textures/item/desert_eye.png",
+    "OnlyWashItems": [
+      "cataclysm:remnant_skull",
+"cataclysm:ancient_metal_block"
+    ],
+    "iconSize": "16",
+"specialTags": [
+      "yihun"
+    ],
+    "localDescription": "A-yihun_loc"
+  }
+}

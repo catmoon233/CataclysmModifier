@@ -1,0 +1,55 @@
+{
+  "group": "cataclysm_modifier_tab",
+  "isList": true,
+  "type": "ARMOR",
+  "A-fangyulingjia": {
+    "type": "CHESTPLATE",
+    "icon": "cataclysm:textures/item/abyss_eye.png",
+    "OnlyWashItems": [
+      "cataclysm:abyssal_egg",
+"cataclysm:music_disc_the_leviathan"
+    ],
+    "iconSize": "16",
+"specialTags": [
+      "fangyulingjia"
+    ],
+    "localDescription": "A-fangyulingjia_loc"
+  },
+  "A-shenyuanzhishui": {
+    "icon": "cataclysm:textures/item/abyss_eye.png",
+    "OnlyWashItems": [
+      "cataclysm:abyssal_egg",
+"cataclysm:music_disc_the_leviathan"
+    ],
+    "iconSize": "16",
+"specialTags": [
+      "shenyuanzhishui"
+    ],
+    "localDescription": "A-shenyuanzhishui_loc"
+  },
+  "A-shenyuanqinshi": {
+    "type": "ATTACKABLE",
+    "icon": "cataclysm:textures/item/abyss_eye.png",
+    "OnlyWashItems": [
+      "cataclysm:abyssal_egg",
+"cataclysm:music_disc_the_leviathan"
+    ],
+    "iconSize": "16",
+"specialTags": [
+      "shenyuanqinshi"
+    ],
+    "localDescription": "A-shenyuanqinshi_loc"
+  },
+  "A-weiduchuansuo": {
+    "icon": "cataclysm:textures/item/abyss_eye.png",
+    "OnlyWashItems": [
+      "cataclysm:abyssal_egg",
+"cataclysm:music_disc_the_leviathan"
+    ],
+    "iconSize": "16",
+"specialTags": [
+      "weiduchuansuo"
+    ],
+    "localDescription": "A-weiduchuansuo_loc"
+  }
+}

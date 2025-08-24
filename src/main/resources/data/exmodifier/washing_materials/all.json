@@ -1,0 +1,107 @@
+{
+  "cataclysm:witherite_ingot":
+  {
+    "NeedCount": 1,
+    "rarity": 0,
+    "OnlyHasWashEntry": true,
+    "additionEntry": 1
+  },
+  "cataclysm:witherite_block":
+  {
+    "NeedCount": 1,
+    "rarity": 0,
+    "OnlyHasWashEntry": true,
+    "additionEntry": 1,
+    "keepEntries": 1
+  },
+  "cataclysm:music_disc_ender_guardian":
+  {
+    "NeedCount": 1,
+    "rarity": 0,
+    "OnlyHasWashEntry": true,
+    "additionEntry": 1,
+    "keepEntries": 1
+  },
+  "cataclysm:music_disc_the_leviathan":
+  {
+    "NeedCount": 1,
+    "rarity": 0,
+    "OnlyHasWashEntry": true,
+    "additionEntry": 1,
+    "keepEntries": 1
+  },
+  "cataclysm:ancient_metal_block":
+  {
+    "NeedCount": 1,
+    "rarity": 0,
+    "OnlyHasWashEntry": true,
+    "additionEntry": 1,
+    "keepEntries": 1
+  },
+  "cataclysm:lava_power_cell":
+  {
+    "NeedCount": 1,
+    "rarity": 0,
+    "OnlyHasWashEntry": true,
+    "additionEntry": 1,
+    "keepEntries": 1
+  },
+  "cataclysm:ignitium_ingot":
+  {
+    "NeedCount": 1,
+    "rarity": 0,
+    "OnlyHasWashEntry": true,
+    "additionEntry": 1
+  },
+  "cataclysm:ignitium_block":
+  {
+    "NeedCount": 1,
+    "rarity": 0,
+    "OnlyHasWashEntry": true,
+    "additionEntry": 1,
+    "keepEntries": 1
+  },
+  "cataclysm:cursium_ingot":
+  {
+    "NeedCount": 1,
+    "rarity": 0,
+    "OnlyHasWashEntry": true,
+    "additionEntry": 1
+  },
+  "cataclysm:cursium_block":
+  {
+    "NeedCount": 1,
+    "keepEntries": 1,
+    "rarity": 0,
+    "OnlyHasWashEntry": true,
+    "additionEntry": 1
+  },
+  "cataclysm:monstrous_horn":
+  {
+    "NeedCount": 1,
+    "rarity": 0,
+    "OnlyHasWashEntry": true,
+    "additionEntry": 1
+  },
+  "cataclysm:remnant_skull":
+  {
+    "NeedCount": 1,
+    "rarity": 0,
+    "OnlyHasWashEntry": true,
+    "additionEntry": 1
+  },
+  "cataclysm:abyssal_egg":
+  {
+    "NeedCount": 1,
+    "rarity": 0,
+    "OnlyHasWashEntry": true,
+    "additionEntry": 1
+  },
+  "cataclysm:gauntlet_of_guard":
+  {
+    "NeedCount": 1,
+    "rarity": 0,
+    "OnlyHasWashEntry": true,
+    "additionEntry": 1
+  }
+}

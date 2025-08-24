@@ -1,0 +1,69 @@
+{
+  "group": "cataclysm_modifier_tab",
+  "isList": true,
+  "A-zhouhun": {
+    "type": "ARMOR",
+    "icon": "cataclysm:textures/item/cursed_eye.png",
+    "OnlyWashItems": [
+      "cataclysm:cursium_ingot",
+"cataclysm:cursium_block"
+    ],
+    "iconSize": "16",
+"specialTags": [
+      "zhouhun"
+    ],
+    "localDescription": "A-zhouhun_loc"
+  },
+  "A-zhouhuan": {
+    "type": "ATTACKABLE",
+    "icon": "cataclysm:textures/item/cursed_eye.png",
+    "OnlyWashItems": [
+      "cataclysm:cursium_ingot",
+"cataclysm:cursium_block"
+    ],
+    "iconSize": "16",
+"specialTags": [
+      "zhouhuan"
+    ],
+    "localDescription": "A-zhouhuan_loc"
+  },
+  "A-linggong": {
+    "type": "CHESPLATE",
+    "icon": "cataclysm:textures/item/cursed_eye.png",
+    "OnlyWashItems": [
+      "cataclysm:cursium_ingot",
+"cataclysm:cursium_block"
+    ],
+    "iconSize": "16",
+"specialTags": [
+      "linggong"
+    ],
+    "localDescription": "A-linggong_loc"
+  },
+  "A-zhanji": {
+    "type": "ATTACKABLE",
+    "icon": "cataclysm:textures/item/cursed_eye.png",
+    "OnlyWashItems": [
+      "cataclysm:cursium_ingot",
+"cataclysm:cursium_block"
+    ],
+    "iconSize": "16",
+"specialTags": [
+      "zhanji"
+    ],
+    "localDescription": "A-zhanji_loc"
+  },
+  "A-shaungchui": {
+    "type": "ATTACKABLE",
+    "icon": "cataclysm:textures/item/cursed_eye.png",
+    "OnlyWashItems": [
+      "cataclysm:cursium_ingot",
+"cataclysm:cursium_block"
+    ],
+    "iconSize": "16",
+"specialTags": [
+      "shuangchui"
+    ],
+    "localDescription": "A-shaungchui_loc"
+  }
+}

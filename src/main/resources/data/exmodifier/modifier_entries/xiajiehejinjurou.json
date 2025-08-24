@@ -1,0 +1,120 @@
+{
+  "isList": true,
+  "type": "ARMOR",
+  "group": "cataclysm_modifier_tab",
+  "A-zhongzhuangkuilei": {
+    "iconSize": "16",
+
+    "icon": "cataclysm:textures/item/monstrous_eye.png",
+    "OnlyWashItems": [
+      "cataclysm:monstrous_horn",
+"cataclysm:lava_power_cell"
+    ],
+    "attrGethers": {
+      "minecraft:generic.armor": {
+        "value": 6,
+        "slot": "auto",
+        "operation": "add"
+      },
+      "minecraft:generic.armor_toughness": {
+        "value": 3,
+        "slot": "auto",
+        "operation": "add"
+      },
+      "minecraft:generic.knockback_resistance": {
+        "value": 10,
+        "slot": "auto",
+        "operation": "add"
+      }
+    }
+  },
+  "A-rongyanchongneng": {
+    "icon": "cataclysm:textures/item/monstrous_eye.png",
+    "OnlyWashItems": [
+      "cataclysm:monstrous_horn",
+"cataclysm:lava_power_cell"
+    ],
+    "localDescription": "A-rongyanchongneng_loc",
+    "iconSize": "16",
+"specialTags": [
+      "rongyanchongneng"
+    ]
+  },
+  "A-hairenershou": {
+    "icon": "cataclysm:textures/item/monstrous_eye.png",
+    "OnlyWashItems": [
+      "cataclysm:monstrous_horn",
+"cataclysm:lava_power_cell"
+    ],
+    "localDescription": "A-hairenershou_loc",
+    "iconSize": "16",
+"specialTags": [
+      "hairenershou"
+    ]
+  },
+  "A-fangyugaizhuang": {
+    "type": "ATTACKABLE",
+    "icon": "cataclysm:textures/item/monstrous_eye.png",
+    "OnlyWashItems": [
+      "cataclysm:monstrous_horn",
+"cataclysm:lava_power_cell"
+    ],
+    "localDescription": "A-fangyugaizhuang_loc",
+    "iconSize": "16",
+"specialTags": [
+      "fangyugaizhuang"
+    ],
+    "attrGethers": {
+      "minecraft:generic.armor": {
+        "value": 6,
+        "slot": "auto",
+        "operation": "add"
+      }
+    }
+  },
+  "A-wajuegaizhuang": {
+    "type": "ATTACKABLE",
+    "icon": "cataclysm:textures/item/monstrous_eye.png",
+    "OnlyWashItems": [
+      "cataclysm:monstrous_horn",
+"cataclysm:lava_power_cell"
+    ],
+    "localDescription": "A-wajuegaizhuang_loc",
+    "iconSize": "16",
+"specialTags": [
+      "wajuegaizhuang"
+    ],
+    "attrGethers": {
+      "minecraft:generic.attack_damage": {
+        "value": -3,
+        "slot": "auto",
+        "operation": "add"
+      },
+      "exmodifier:dig_speed": {
+        "value": 0.25,
+        "slot": "auto",
+        "operation": "multiply_base"
+      }
+    }
+  },
+  "A-zhanchuigaizhuang": {
+    "type": "ATTACKABLE",
+    "icon": "cataclysm:textures/item/monstrous_eye.png",
+    "OnlyWashItems": [
+      "cataclysm:monstrous_horn",
+"cataclysm:lava_power_cell"
+    ],
+    "localDescription": "A-zhanchuigaizhuang_loc",
+    "iconSize": "16",
+"specialTags": [
+      "zhanchuigaizhuang"
+    ],
+    "attrGethers": {
+      "minecraft:generic.attack_damage": {
+        "value": 5,
+        "slot": "auto",
+        "operation": "add"
+      }
+    }
+  }
+}

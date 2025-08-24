@@ -1,0 +1,134 @@
+{
+  "isList": "true",
+  "group": "cataclysm_modifier_tab",
+  "type": "ATTACKABLE",
+  "W-yanhen": {
+    "iconSize": "16",
+
+    "exsuit": [
+      "ATW-yanhen"
+    ],
+    "icon": "cataclysm:textures/item/flame_eye.png",
+    "OnlyWashItems": [
+      "cataclysm:ignitium_ingot",
+"cataclysm:ignitium_block"
+    ]
+  },
+  "W-yanyuzangsha": {
+    "icon": "cataclysm:textures/item/flame_eye.png",
+    "OnlyWashItems": [
+      "cataclysm:ignitium_ingot",
+"cataclysm:ignitium_block"
+    ],
+    "iconSize": "16",
+"specialTags": [
+      "yanyuzangsha"
+    ],
+    "localDescription": "W-yanyuzangsha_loc"
+  },
+  "W-yandan": {
+    "type": "BOW",
+    "icon": "cataclysm:textures/item/flame_eye.png",
+    "OnlyWashItems": [
+      "cataclysm:ignitium_ingot",
+"cataclysm:ignitium_block"
+    ],
+    "iconSize": "16",
+"specialTags": [
+      "yandan"
+    ],
+    "localDescription": "W-yandan_loc"
+  },
+  "W-zangyan": {
+    "OnlyItems": [
+      "cataclysm:the_incinerator"
+    ],
+    "icon": "cataclysm:textures/item/flame_eye.png",
+    "OnlyWashItems": [
+      "cataclysm:ignitium_ingot",
+"cataclysm:ignitium_block"
+    ],
+    "iconSize": "16",
+"specialTags": [
+      "zangyan"
+    ],
+    "localDescription": "W-zangyan_loc"
+  },
+  "W-dunji": {
+    "type": "SHIELD",
+    "icon": "cataclysm:textures/item/flame_eye.png",
+    "OnlyWashItems": [
+      "cataclysm:ignitium_ingot",
+"cataclysm:ignitium_block"
+    ],
+    "iconSize": "16",
+"specialTags": [
+      "dunji"
+    ],
+    "localDescription": "W-dunji_loc"
+  },
+  "W-huoyu": {
+    "type": "ARMOR",
+    "icon": "cataclysm:textures/item/flame_eye.png",
+    "OnlyWashItems": [
+      "cataclysm:ignitium_ingot",
+"cataclysm:ignitium_block"
+    ],
+    "iconSize": "16",
+"specialTags": [
+      "huoyu"
+    ],
+    "localDescription": "W-huoyu_loc"
+  },
+  "W-zangyan-yu": {
+    "OnlyItems": [
+      "cataclysm:the_incinerator"
+    ],
+    "icon": "cataclysm:textures/item/flame_eye.png",
+    "OnlyWashItems": [
+      "cataclysm:ignitium_ingot",
+"cataclysm:ignitium_block"
+    ],
+    "iconSize": "16",
+"specialTags": [
+      {
+        "id": "zangyan",
+        "defense": 0.6
+      }
+    ],
+    "localDescription": "W-zangyan-yu_loc"
+  },
+  "W-zangyan-gong": {
+    "OnlyItems": [
+      "cataclysm:the_incinerator"
+    ],
+    "icon": "cataclysm:textures/item/flame_eye.png",
+    "OnlyWashItems": [
+      "cataclysm:ignitium_ingot",
+"cataclysm:ignitium_block"
+    ],
+    "iconSize": "16",
+"specialTags": [
+      {
+        "id": "zangyan",
+        "attack": 0.4
+      }
+    ],
+    "localDescription": "W-zangyan-gong_loc"
+  },
+  "W-huozhong": {
+    "type": "ARMOR",
+    "icon": "cataclysm:textures/item/flame_eye.png",
+    "OnlyWashItems": [
+      "cataclysm:ignitium_ingot",
+"cataclysm:ignitium_block"
+    ],
+    "iconSize": "16",
+"specialTags": [
+      {
+        "id": "huozhong"
+      }
+    ],
+    "localDescription": "W-huozhong_loc"
+  }
+}

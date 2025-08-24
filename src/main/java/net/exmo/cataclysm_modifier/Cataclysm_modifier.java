@@ -1,8 +1,14 @@
 package net.exmo.cataclysm_modifier;
 
+import com.github.L_Ender.cataclysm.init.ModGroup;
+import com.github.L_Ender.cataclysm.init.ModItems;
 import com.mojang.logging.LogUtils;
+import net.exmo.cataclysm_modifier.init.CMItemInit;
+import net.exmo.exmodifier.Exmodifier;
+import net.exmo.exmodifier.events.ExCustomTabEvent;
 import net.minecraft.client.Minecraft;
 import net.minecraft.core.registries.Registries;
+import net.minecraft.network.chat.Component;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
@@ -35,10 +41,33 @@ public class Cataclysm_modifier {
 
     public static final String MODID = "cataclysm_modifier";
     public static final Logger LOGGER = LogUtils.getLogger();
+    public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, MODID);
+
+    public final static RegistryObject<CreativeModeTab> ExModifierTab = CREATIVE_MODE_TABS.register("cataclysm_modifier_tab", () -> CreativeModeTab.builder()
+            .icon(Exmodifier::getTabIcon)
+            .withSearchBar()
+            .title(Component.translatable("itemGroup.exmodifier_tab"))
+            .displayItems((parameters, output) -> {
+            }).build());
 
     public Cataclysm_modifier() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+        CMItemInit.REGISTRY.register(modEventBus);
+        modEventBus.addListener(this::onCreativeTabBuild);
 
+        CREATIVE_MODE_TABS.register(modEventBus);
+
+
+    }
+
+    public  void onCreativeTabBuild(BuildCreativeModeTabContentsEvent event) {
+        if (event.getTab().equals(ModGroup.ITEM.get())){
+            CMItemInit.REGISTRY.getEntries().forEach(
+                    e->{
+                        event.accept(e.get());
+                    }
+            );
+        }
     }
 
 }

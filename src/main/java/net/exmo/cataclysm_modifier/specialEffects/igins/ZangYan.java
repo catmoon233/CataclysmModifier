@@ -3,6 +3,7 @@ package net.exmo.cataclysm_modifier.specialEffects.igins;
 import com.github.L_Ender.cataclysm.init.ModEffect;
 import net.exmo.cataclysm_modifier.SpecialEffects;
 import net.exmo.exmodifier.content.specialEffects.SpecialEffect;
+import net.exmo.exmodifier.util.ExLivingHurtEvent;
 import net.exmo.exmodifier.util.ExUtil;
 import net.minecraft.world.damagesource.DamageSources;
 import net.minecraft.world.effect.MobEffects;
@@ -22,44 +23,36 @@ import net.minecraftforge.fml.common.Mod;
 @Mod.EventBusSubscriber
 public class ZangYan  {
     @SubscribeEvent
-    public static void OnHurt (LivingHurtEvent event)
+    public static void OnHurt (ExLivingHurtEvent event)
     {
         if (event.getEntity() instanceof Player player) {
-            if (ExUtil.hasSpecialEffect(SpecialEffects.ZANGYAN, player, EquipmentSlot.MAINHAND)) {
+             ExUtil.ifHasSpecialEffect(SpecialEffects.ZANGYAN, player, EquipmentSlot.MAINHAND,(e)->{
                 Entity entity = event.getSource().getEntity();
                 if (entity != null && entity.fireImmune()) {
-                    event.setAmount(event.getAmount() * 0.8f);
+                    event.addMutiAmount( (-e.getSpecialTagSettingFloatOrDefault(SpecialEffects.ZANGYAN.id(),"defense",0.2f)));
                 }
-
-
-            }
+             });
         }
-        if (event.getSource().getEntity() instanceof Player player){
-            if (ExUtil.hasSpecialEffect(SpecialEffects.ZANGYAN, player, EquipmentSlot.MAINHAND)) {
+        if (event.getSource().getEntity() instanceof Player player) {
+            ExUtil.ifHasSpecialEffect(SpecialEffects.ZANGYAN, player, EquipmentSlot.MAINHAND, (e) -> {
                 Entity entity = event.getEntity();
-                if (entity instanceof LivingEntity livingEntity && livingEntity.isOnFire()){
-                    event.setAmount(event.getAmount()*1.1f);
+                if (entity instanceof LivingEntity livingEntity && livingEntity.isOnFire()) {
+                    event.addMutiAmount( ( e.getSpecialTagSettingFloatOrDefault(SpecialEffects.ZANGYAN.id(), "attack", 0.2f)));
                 }
-
-
-            }
-        }
-    }
-    @SubscribeEvent(priority = EventPriority.HIGHEST)
-    public static void OnHurt1 (LivingHurtEvent event)
-    {
-
-        if (event.getSource().getEntity() instanceof Player player){
-            if (ExUtil.hasSpecialEffect(SpecialEffects.ZANGYAN, player, EquipmentSlot.MAINHAND)) {
-                Entity entity = event.getEntity();
-                if (entity instanceof LivingEntity livingEntity && livingEntity.hasEffect(ModEffect.EFFECTABYSSAL_BURN.get())){
-                    int level = livingEntity.getEffect(ModEffect.EFFECTABYSSAL_BURN.get()).getAmplifier()+1;
-                    event.setAmount(event.getAmount()+level);
-                }
-
-
-            }
+            });
         }
     }
 
+    @SubscribeEvent
+    public static void OnHurt1 (ExLivingHurtEvent event) {
+        if (event.getSource().getEntity() instanceof Player player) {
+            ExUtil.ifHasSpecialEffect(SpecialEffects.ZANGYAN, player, EquipmentSlot.MAINHAND, (e) -> {
+                Entity entity = event.getEntity();
+                if (entity instanceof LivingEntity livingEntity && livingEntity.hasEffect(ModEffect.EFFECTBLAZING_BRAND.get())) {
+                    int level = livingEntity.getEffect(ModEffect.EFFECTBLAZING_BRAND.get()).getAmplifier() + 1;
+                    event.addAmount( level * (e.getSpecialTagSettingFloatOrDefault(SpecialEffects.ZANGYAN.id(), "burn", 1)));
+                }
+            });
+        }
+    }
 }

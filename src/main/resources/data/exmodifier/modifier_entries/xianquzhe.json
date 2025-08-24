@@ -1,0 +1,55 @@
+{
+  "group": "cataclysm_modifier_tab",
+  "type": "ARMOR",
+  "isList": true,
+  "A-hejinzhuangjia": {
+    "icon": "cataclysm:textures/item/mech_eye.png",
+    "OnlyWashItems": [
+      "cataclysm:witherite_ingot",
+"cataclysm:witherite_block"
+    ],
+    "iconSize": "16",
+"specialTags": [
+      "hejinzhuangjia"
+    ],
+    "localDescription": "A-hejinzhuangjia_loc"
+  },
+  "A-zheshe": {
+    "type": "CHESTPLATE",
+    "icon": "cataclysm:textures/item/mech_eye.png",
+    "OnlyWashItems": [
+      "cataclysm:witherite_ingot",
+"cataclysm:witherite_block"
+    ],
+    "iconSize": "16",
+"specialTags": [
+      "zheshe"
+    ],
+    "localDescription": "A-zheshe_loc"
+  },
+  "A-diancixuanfu": {
+    "type": "BOOTS",
+    "icon": "cataclysm:textures/item/mech_eye.png",
+    "OnlyWashItems": [
+      "cataclysm:witherite_ingot",
+"cataclysm:witherite_block"
+    ],
+    "iconSize": "16",
+"specialTags": [
+      "diancixuanfu"
+    ],
+    "localDescription": "A-diancixuanfu_loc"
+  },
+  "A-jiguangchuantou": {
+    "icon": "cataclysm:textures/item/mech_eye.png",
+    "OnlyWashItems": [
+      "cataclysm:witherite_ingot",
+"cataclysm:witherite_block"
+    ],
+    "iconSize": "16",
+"specialTags": [
+      "jiguangchuantou"
+    ],
+    "localDescription": "A-jiguangchuantou_loc"
+  }
+}

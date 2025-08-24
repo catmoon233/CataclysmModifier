@@ -1,0 +1,86 @@
+{
+  "group": "cataclysm_modifier_tab",
+  "isList": true,
+  "A-xukongzhongji": {
+    "type": "ATTACKABLE",
+    "icon": "cataclysm:textures/item/void_eye.png",
+    "OnlyWashItems": [
+      "cataclysm:gauntlet_of_guard",
+"cataclysm:music_disc_ender_guardian"
+    ],
+    "iconSize": "16",
+"specialTags": [
+      "xukongzhongji"
+    ],
+    "localDescription": "A-xukonngzhongji_loc"
+  },
+  "A-xukongnengyuan": {
+    "type": "CHESTPLATE",
+    "icon": "cataclysm:textures/item/void_eye.png",
+    "OnlyWashItems": [
+      "cataclysm:gauntlet_of_guard",
+"cataclysm:music_disc_ender_guardian"
+    ],
+    "iconSize": "16",
+"specialTags": [
+      "xukongnengyuan"
+    ],
+    "localDescription": "A-xukongnengyuan_loc"
+  },
+  "A-moyingqinhe": {
+    "type": "CHESPLATE",
+    "icon": "cataclysm:textures/item/void_eye.png",
+    "OnlyWashItems": [
+      "cataclysm:gauntlet_of_guard",
+"cataclysm:music_disc_ender_guardian"
+    ],
+    "iconSize": "16",
+"specialTags": [
+      "moyingqinhe"
+    ],
+    "localDescription": "A-moyingqinhe_loc"
+  },
+  "A-moyingqianghua": {
+    "type": "ATTACKABLE",
+    "icon": "cataclysm:textures/item/void_eye.png",
+    "OnlyWashItems": [
+      "cataclysm:gauntlet_of_guard",
+"cataclysm:music_disc_ender_guardian"
+    ],
+    "iconSize": "16",
+"specialTags": [
+      "moyingqianghua"
+    ],
+    "localDescription": "A-moyingqianghua_loc",
+    "attrGethers": {
+      "minecraft:generic.armor": {
+        "value": 3,
+        "slot": "auto",
+        "operation": "add"
+      },
+      "minecraft:generic.armor_toughness": {
+        "value": 1.5,
+        "slot": "auto",
+        "operation": "add"
+      },
+      "minecraft:generic.knockback_resistance": {
+        "value": 15,
+        "slot": "auto",
+        "operation": "add"
+      }
+    }
+  },
+  "A-xukongqianghua": {
+    "type": "CHESPLATE",
+    "icon": "cataclysm:textures/item/void_eye.png",
+    "OnlyWashItems": [
+      "cataclysm:gauntlet_of_guard",
+"cataclysm:music_disc_ender_guardian"
+    ],
+    "iconSize": "16",
+"specialTags": [
+      "xukongqianghua"
+    ],
+    "localDescription": "A-xukongqianghua_loc"
+  }
+}

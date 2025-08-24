@@ -1,12 +1,21 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "net.exmo.cataclysm_modifier.mixin",
-  "compatibilityLevel": "JAVA_8",
+  "package": "net.exmo.cataclysm_modifier.mixins",
+  "compatibilityLevel": "JAVA_17",
   "refmap": "cataclysm_modifier.refmap.json",
   "mixins": [
+    "AsOnFireMixin",
+    "Cursed_bowMixin",
+    "Gauntlet_of_GuardMixin",
+    "IgnisFireballEntityMixin",
+    "Sandstorm_EntityMixin",
+    "Sandstorm_In_A_BottleMixin",
+    "TabRegisterMixin",
+    "YanDanMixin"
   ],
   "client": [
+    "ItemRenderMixin"
   ],
   "injectors": {
     "defaultRequire": 1
